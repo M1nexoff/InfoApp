@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="adobe_stock">
+        Adobe Stock is a comprehensive stock photography, vector graphics, and video marketplace provided by Adobe Inc. It offers a vast collection of high-quality assets, including:
+
+        \n\n- Photos: Thousands of professionally captured images covering a wide range of subjects, from landscapes to portraits.
+        \n- Illustrations: Vector graphics and illustrations suitable for various design projects, including logos, icons, and infographics.
+        \n- Videos: A diverse library of video footage, including cinematic clips, animations, and motion graphics.
+        \n- Templates: Pre-designed templates for various creative projects, such as brochures, presentations, and social media posts.
+        \n- 3D assets: Ready-to-use 3D models and textures for use in 3D rendering and visualization.
+
+        \n\nAdobe Stock provides both royalty-free and rights-managed licensing options, allowing users to choose the licensing model that best suits their needs. With integration into Adobe Creative Cloud applications like Photoshop, Illustrator, and InDesign, accessing and using Adobe Stock assets in your creative projects is seamless and efficient.
+    </string>
+    <string name="aero_description">
+        Aero is a comprehensive tool offered by Adobe Inc. It is designed to streamline the process of creating immersive augmented reality experiences. With Aero, users can easily import assets from Adobe Creative Cloud applications like Photoshop and Illustrator to create interactive AR content.
+
+        \n\nAero provides a wide range of features, including:
+        \n- Drag-and-drop interface: Easily place and manipulate 3D objects in real-world environments.
+        \n- Animation tools: Create animations and interactive behaviors to enhance the AR experience.
+        \n- Integration with Adobe Stock: Access a vast library of 3D models, textures, and animations directly within Aero.
+        \n- Preview in real-time: See your AR creations come to life on your device as you work.
+        \n- Sharing and collaboration: Share your AR experiences with others or collaborate with team members using Adobe Creative Cloud.
+
+        \nWhether you\'re a designer, developer, or creative professional, Aero offers a powerful platform for bringing your ideas to life in augmented reality.
+    </string>
+    <string name="after_effects_description">
+        Adobe After Effects is a powerful digital motion graphics and visual effects software developed by Adobe Inc. It is widely used in film, television, and web production to create stunning visual effects, animations, and motion graphics.
+
+        \n\nKey features of After Effects include:
+        \n- Advanced compositing: Combine multiple layers of video and images to create complex visual effects.
+        \n- Animation tools: Animate text, shapes, and graphics using keyframes and expressions.
+        \n- Visual effects: Apply effects such as blurs, distortions, and color corrections to enhance your compositions.
+        \n- Motion tracking: Track the movement of objects in your footage and apply visual effects or graphics that follow their motion.
+        \n- 3D integration: Import and animate 3D models and scenes using the built-in 3D camera and lighting tools.
+        \n- Seamless workflow: Integration with other Adobe Creative Cloud applications like Photoshop and Illustrator allows for easy import and export of assets.
+
+        \nWhether you\'re creating motion graphics for a video project, adding visual effects to a film, or designing animations for the web, After Effects provides the tools you need to bring your ideas to life.
+    </string>
+    <string name="animate_description">
+        Adobe Animate is a powerful multimedia authoring and animation software developed by Adobe Inc. It is used by animators, designers, and developers to create interactive animations, games, and advertisements for various platforms.
+
+        \n\nKey features of Adobe Animate include:
+        \n- Vector-based animation: Create smooth and scalable animations using vector graphics.
+        \n- Timeline and keyframe animation: Animate objects over time using the timeline and keyframes.
+        \n- Character rigging and animation: Rig characters and animate them with bone tools and inverse kinematics.
+        \n- Interactive elements: Add interactivity to your animations with buttons, links, and interactive elements.
+        \n- Export to multiple formats: Export animations to HTML5, WebGL, SVG, and video formats for web and mobile platforms.
+        \n- Integration with other Adobe Creative Cloud apps: Import assets from Photoshop and Illustrator and export animations to Premiere Pro and After Effects.
+
+        \nWhether you\'re creating animations for websites, mobile apps, or interactive presentations, Adobe Animate offers the tools and flexibility you need to bring your ideas to life.
+    </string>
+    <string name="audition_description">
+        Adobe Audition is a comprehensive audio editing and production software developed by Adobe Inc. It is used by audio professionals, podcasters, musicians, and sound designers to record, edit, mix, and master audio content.
+
+        \n\nKey features of Adobe Audition include:
+        \n- Multitrack editing: Record and edit multiple tracks simultaneously for complex audio projects.
+        \n- Audio effects and plugins: Apply a wide range of built-in effects and third-party plugins to enhance your audio.
+        \n- Noise reduction and restoration: Remove background noise, clicks, and pops from recordings with advanced noise reduction tools.
+        \n- Audio restoration tools: Repair damaged audio files using tools such as the Spectral Frequency Display and the Spot Healing Brush.
+        \n- Podcasting support: Create, edit, and publish podcasts with features like automatic loudness normalization and enhanced audio cleanup.
+        \n- Integration with other Adobe Creative Cloud apps: Seamlessly import audio files from Premiere Pro and export final mixes to video projects.
+
+        \nWhether you\'re editing dialogue for a film, mixing music tracks, or producing a podcast, Adobe Audition offers the tools and workflow you need to achieve professional-quality audio results.
+    </string>
+    <string name="bridge_description">
+        Adobe Bridge is a powerful media management software developed by Adobe Inc. It is designed to help users organize, browse, and preview their creative assets quickly and efficiently.
+
+        \n\nKey features of Adobe Bridge include:
+        \n- Centralized asset management: Access all your creative files, including images, videos, and documents, in one place.
+        \n- Batch processing: Perform batch operations such as renaming, resizing, and converting multiple files at once.
+        \n- Metadata management: Add, edit, and search metadata to easily find and organize your assets.
+        \n- Advanced preview options: Preview files in various formats, including thumbnails, full-screen previews, and slideshow mode.
+        \n- Integration with Adobe Creative Cloud: Seamlessly access assets from other Adobe apps like Photoshop, Illustrator, and InDesign.
+        \n- Customizable workspace: Customize the Bridge interface to suit your workflow with customizable panels, workspaces, and keyboard shortcuts.
+
+        \nWhether you\'re a photographer, designer, or videographer, Adobe Bridge provides the tools you need to manage your creative assets efficiently and effectively.
+    </string>
+    <string name="character_animator_description">
+        Adobe Character Animator is an innovative animation software developed by Adobe Inc. It is designed to bring characters to life through real-time animation and interaction.
+
+        \n\nKey features of Adobe Character Animator include:
+        \n- Facial recognition and tracking: Use your webcam to capture facial expressions and movements in real time.
+        \n- Puppet rigging: Rig characters using a system of handles and controls, allowing for intuitive manipulation and animation.
+        \n- Lip syncing: Automatically synchronize lip movements with audio input for realistic character dialogue.
+        \n- Triggers and behaviors: Create interactive experiences by assigning triggers and behaviors to different parts of your character.
+        \n- Live performance mode: Perform live animations and interactions using your character in real time.
+        \n- Integration with other Adobe Creative Cloud apps: Import assets from Photoshop and Illustrator, and export animations to After Effects for further editing.
+
+        \nWhether you\'re creating cartoons, animated series, or live presentations, Adobe Character Animator offers a fun and intuitive way to bring your characters to life.
+    </string>
+    <string name="dimension_description">
+        Adobe Dimension is a powerful 3D design and rendering software developed by Adobe Inc. It is designed to simplify the process of creating photorealistic 3D images and scenes for graphic design and marketing projects.
+
+        \n\nKey features of Adobe Dimension include:
+        \n- Easy 3D design: Create 3D mockups and product visualizations using a simple interface and intuitive controls.
+        \n- Realistic rendering: Render high-quality images with realistic lighting, shadows, and materials for stunning visual effects.
+        \n- Integration with Adobe Stock: Access a vast library of 3D models, materials, and textures directly within Dimension.
+        \n- Dimension-aware Adobe apps: Import 2D and 3D assets from Photoshop and Illustrator and export renders to Photoshop for further editing.
+        \n- Augmented reality (AR) preview: Preview your designs in real-world environments using Adobe Aero for immersive AR experiences.
+
+        \nWhether you\'re a graphic designer, marketer, or product designer, Adobe Dimension offers the tools you need to create compelling 3D visuals that captivate your audience.
+    </string>
+    <string name="dreamweaver_description">
+        Adobe Dreamweaver is a versatile web design and development software developed by Adobe Inc. It is designed to empower web designers and developers to create responsive websites and web applications with ease.
+
+        \n\nKey features of Adobe Dreamweaver include:
+        \n- Visual design interface: Design websites visually using a powerful WYSIWYG editor with drag-and-drop functionality.
+        \n- Code editor: Write and edit HTML, CSS, JavaScript, and other web languages with syntax highlighting, code completion, and code validation.
+        \n- Responsive design tools: Design responsive websites that adapt to different screen sizes and devices with built-in responsive design features.
+        \n- Live preview: See your changes in real time with live preview in multiple browsers and devices.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from Photoshop and Illustrator, and export designs to XD for prototyping.
+        \n- Git integration: Collaborate with team members and manage version control with built-in Git support.
+
+        \nWhether you\'re a beginner or an experienced web developer, Adobe Dreamweaver offers the tools you need to create modern, responsive websites that stand out on the web.
+    </string>
+    <string name="fresco_description">
+        Adobe Fresco is a powerful digital painting and drawing app developed by Adobe Inc. It is designed for artists, illustrators, and designers who want to create digital artwork with natural and realistic brushes.
+
+        \n\nKey features of Adobe Fresco include:
+        \n- Realistic brushes: Create natural-looking strokes with a wide range of brushes inspired by traditional media like oils, watercolors, and pencils.
+        \n- Live brushes: Paint with watercolors and oils that bleed and blend like the real thing, with interactive watercolor washes and oil paint smears.
+        \n- Vector and raster support: Draw with both vector and raster brushes for flexible editing and scaling options.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from Photoshop and Illustrator, and export artwork to Photoshop for further editing.
+        \n- Touch and stylus support: Work naturally with touch gestures and pressure-sensitive styluses on compatible devices like the iPad and Windows tablets.
+
+        \nWhether you\'re sketching ideas on the go or creating detailed illustrations, Adobe Fresco offers the tools you need to bring your creative vision to life.
+    </string>
+    <string name="illustrator_description">
+        Adobe Illustrator is a powerful vector graphics editor developed by Adobe Inc. It is designed for creating illustrations, logos, icons, typography, and complex graphics for print, web, and digital media.
+
+        \n\nKey features of Adobe Illustrator include:
+        \n- Vector-based drawing tools: Create scalable graphics using precise drawing tools like the Pen tool, Shape tools, and Pathfinder operations.
+        \n- Typography tools: Design and manipulate text with a wide range of typography features, including variable fonts, OpenType enhancements, and text-on-path options.
+        \n- Artboards: Work on multiple designs within a single document using artboards, allowing for efficient organization and iteration.
+        \n- Image tracing: Convert raster images into editable vector graphics with the Image Trace feature, preserving the quality and scalability of your artwork.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from Photoshop and InDesign, and export artwork to After Effects for animation.
+        \n- Adobe Stock integration: Access millions of high-quality images, graphics, and templates directly within Illustrator for use in your designs.
+
+        \nWhether you\'re a graphic designer, illustrator, or web developer, Adobe Illustrator offers the tools you need to create stunning graphics that stand out in any medium.
+    </string>
+    <string name="in_copy_description">
+        Adobe InCopy is a professional word processing and editorial collaboration software developed by Adobe Inc. It is designed to streamline the editorial process and facilitate collaboration between writers, editors, and designers.
+
+        \n\nKey features of Adobe InCopy include:
+        \n- Word processing: Write, edit, and format text using familiar word processing tools like styles, tracking, and spell check.
+        \n- Editorial workflow: Collaborate with team members in real time on shared documents using track changes, comments, and annotations.
+        \n- Integration with Adobe InDesign: Work seamlessly with InDesign layout files, allowing writers and editors to focus on content while designers handle layout and formatting.
+        \n- Content linking: Link text and graphics between InCopy documents and InDesign layouts, ensuring consistency and accuracy across multiple documents.
+        \n- Version control: Manage and track document versions with built-in versioning and check-in/check-out capabilities.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from Photoshop and Illustrator, and export text for further editing in After Effects.
+
+        \nWhether you\'re a writer, editor, or designer, Adobe InCopy offers the tools you need to collaborate effectively and produce high-quality content for print and digital media.
+    </string>
+    <string name="in_design_description">
+        Adobe InDesign is a professional desktop publishing software developed by Adobe Inc. It is designed to empower designers and publishers to create stunning layouts for print and digital media.
+
+        \n\nKey features of Adobe InDesign include:
+        \n- Layout tools: Design layouts with precision using tools like grids, guides, and alignment options.
+        \n- Typography: Create beautiful typography with advanced text formatting options, including paragraph and character styles, kerning, and tracking.
+        \n- Graphics and images: Import and manipulate graphics and images with ease, including support for vector graphics and high-resolution images.
+        \n- Interactive documents: Create interactive PDFs, eBooks, and digital magazines with interactive elements such as hyperlinks, buttons, and multimedia content.
+        \n- Preflight and packaging: Ensure print readiness with preflight checks and package your documents with all fonts and images for easy sharing and printing.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from Photoshop and Illustrator, and export layouts to Acrobat for final output.
+
+        \nWhether you\'re designing brochures, magazines, eBooks, or interactive documents, Adobe InDesign offers the tools you need to bring your creative vision to life.
+    </string>
+    <string name="lightroom_description">
+        Adobe Lightroom is a comprehensive photo editing and management software developed by Adobe Inc. It is designed for photographers and enthusiasts to organize, edit, and share their photos with ease.
+
+        \n\nKey features of Adobe Lightroom include:
+        \n- Non-destructive editing: Edit photos without altering the original image file, allowing for flexible and reversible edits.
+        \n- Advanced editing tools: Enhance your photos with a wide range of editing tools, including exposure, color, and tone adjustments, as well as selective editing with brushes and filters.
+        \n- Organization and management: Organize your photos with keywords, ratings, and metadata, and manage large photo collections with ease.
+        \n- Cloud storage and syncing: Sync your photos and edits across multiple devices with Creative Cloud, allowing for seamless access and editing on the go.
+        \n- Integration with Photoshop: Seamlessly move photos between Lightroom and Photoshop for advanced editing and compositing.
+        \n- Sharing and collaboration: Share your photos directly to social media platforms or create custom galleries and slideshows to showcase your work.
+
+        \nWhether you\'re a professional photographer or an amateur enthusiast, Adobe Lightroom offers the tools you need to take your photography to the next level.
+    </string>
+    <string name="media_encoder_description">
+        Adobe Media Encoder is a powerful media encoding software developed by Adobe Inc. It is designed to streamline the process of encoding and transcoding video and audio files for various formats and platforms.
+
+        \n\nKey features of Adobe Media Encoder include:
+        \n- Broad format support: Encode video and audio files in a wide range of formats and codecs, including popular formats like H.264, HEVC, and AAC.
+        \n- Presets and templates: Use built-in presets and customizable templates to optimize your media for different devices and platforms, such as web, mobile, and broadcast.
+        \n- Batch processing: Encode multiple files simultaneously with batch processing capabilities, saving time and resources.
+        \n- Watch folders: Automate encoding tasks by monitoring designated folders and automatically encoding media files added to them.
+        \n- Integration with Adobe Creative Cloud: Seamlessly integrate with Premiere Pro and After Effects for efficient rendering and exporting workflows.
+        \n- Background encoding: Continue working on other tasks while Media Encoder encodes your media files in the background.
+
+        \nWhether you\'re preparing video content for online streaming, broadcast, or archival purposes, Adobe Media Encoder offers the tools you need to optimize your media for any platform.
+    </string>
+    <string name="photoshop_description">
+        Adobe Photoshop is the industry-standard raster graphics editor developed by Adobe Inc. It is designed for professional photographers, designers, and artists to create and manipulate images with precision and creativity.
+
+        \n\nKey features of Adobe Photoshop include:
+        \n- Powerful editing tools: Access a wide range of tools for image editing, retouching, and compositing, including layers, masks, filters, and blending modes.
+        \n- Non-destructive editing: Edit images without altering the original image file, allowing for reversible edits and experimentation.
+        \n- Advanced selection tools: Make precise selections with tools like the Magic Wand, Quick Selection, and Pen tools, and refine selections with advanced masking and selection options.
+        \n- Content-aware technology: Remove unwanted elements from photos with Content-Aware Fill, Content-Aware Scale, and Content-Aware Move tools.
+        \n- Typography and design tools: Create stunning designs with text, shapes, and vector graphics, and apply effects like gradients, shadows, and textures.
+        \n- Integration with Creative Cloud: Seamlessly import assets from other Adobe apps like Illustrator and InDesign, and export artwork to After Effects for animation.
+
+        \nWhether you\'re editing photos, creating digital artwork, or designing graphics for print or web, Adobe Photoshop offers the tools you need to bring your creative vision to life.
+    </string>
+    <string name="premiere_pro_description">
+        Adobe Premiere Pro is a professional video editing software developed by Adobe Inc. It is designed for filmmakers, video editors, and content creators to edit and produce high-quality video content for film, TV, and web.
+
+        \n\nKey features of Adobe Premiere Pro include:
+        \n- Timeline-based editing: Edit video clips and audio tracks on a flexible timeline with precision and control.
+        \n- Advanced editing tools: Access a wide range of tools for video editing, color correction, audio mixing, and effects, including transitions, titles, and graphics.
+        \n- Creative integration: Seamlessly import and export assets between Premiere Pro and other Adobe Creative Cloud apps like After Effects, Photoshop, and Audition.
+        \n- Collaboration tools: Collaborate with team members and share projects using built-in version control, project locking, and cloud storage integration.
+        \n- VR and 360 video editing: Edit immersive VR and 360-degree video content with specialized tools and effects for a seamless viewing experience.
+        \n- High-performance workflow: Take advantage of optimized performance and hardware acceleration for faster rendering and real-time playback.
+
+        \nWhether you\'re editing short films, documentaries, or web videos, Adobe Premiere Pro offers the tools you need to tell your story with impact and creativity.
+    </string>
+    <string name="premiere_rush_description">
+    Adobe Premiere Rush is an all-in-one video editing app developed by Adobe Inc. It is designed for content creators, social media influencers, and anyone who wants to create and share professional-quality videos quickly and easily.
+
+    \n\nKey features of Adobe Premiere Rush include:
+    \n- Easy-to-use interface: Edit videos with an intuitive interface that\'s perfect for beginners and experienced editors alike.
+    \n- Multi-platform support: Edit videos on your desktop, laptop, or mobile device with seamless syncing across devices.
+    \n- Professional-quality editing tools: Access a range of editing tools, including trimming, transitions, color correction, and audio editing, for polished video projects.
+    \n- Integration with Adobe Creative Cloud: Seamlessly import assets from other Adobe apps like Adobe Photoshop and Adobe Premiere Pro, and export projects to Adobe Premiere Pro for advanced editing.
+    \n- Built-in templates and presets: Use built-in templates and presets to create stunning videos quickly, or customize your projects with your own creative vision.
+    \n- Cloud storage: Store your media and projects in the cloud with Adobe Creative Cloud storage, ensuring your work is always accessible and secure.
+
+    \nWhether you\'re editing vlogs, tutorials, or social media content, Adobe Premiere Rush offers the tools and flexibility you need to create engaging videos that stand out online.
+</string>
+
+    <string name="xd_description">
+        Adobe XD is a powerful design and prototyping software developed by Adobe Inc. It is designed for UX/UI designers, web designers, and app developers to create and collaborate on interactive prototypes and design systems.
+
+        \n\nKey features of Adobe XD include:
+        \n- Design tools: Create wireframes, mockups, and high-fidelity designs with vector-based drawing tools, layout grids, and reusable components.
+        \n- Prototyping: Design interactive prototypes with transitions, gestures, and animations to simulate the user experience and test usability.
+        \n- Auto-animate: Create animations between artboards with Auto-animate, allowing for smooth transitions and dynamic effects.
+        \n- Responsive resize: Design responsive layouts that adapt to different screen sizes and devices with the responsive resize feature.
+        \n- Collaboration and sharing: Share designs and prototypes with team members and stakeholders for feedback and review, and collaborate in real time with coediting capabilities.
+        \n- Integration with Adobe Creative Cloud: Seamlessly import assets from other Adobe apps like Photoshop and Illustrator, and export designs to After Effects for animation.
+
+        \nWhether you\'re designing websites, mobile apps, or digital interfaces, Adobe XD offers the tools you need to design, prototype, and share interactive experiences with ease.
+    </string>
+</resources>
