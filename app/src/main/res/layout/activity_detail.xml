@@ -25,7 +25,6 @@
                 android:padding="8dp"
                 android:src="@drawable/ic_back_icon" />
 
-
             <TextView
                 android:fontFamily="@font/nunito"
                 android:id="@+id/name"
