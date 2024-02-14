@@ -3,6 +3,7 @@ package uz.m1nex.adobeinfo;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -20,12 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Window w = getWindow();
-        w.setFlags(
-                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
-        );
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         RecyclerView recyclerView = findViewById(R.id.recycle);
         ProgramAdapter adapter = new ProgramAdapter(this, list);
@@ -56,13 +53,23 @@ public class MainActivity extends AppCompatActivity {
         list.add(new Program(R.drawable.lightroom, "Adobe Lightroom", "Photo Editing", Color.parseColor("#D9071D34"), R.string.lightroom_description));
         list.add(new Program(R.drawable.premier_rush, "Adobe Premiere Rush", "Video Editing", Color.parseColor("#D9000058"), R.string.premiere_rush_description));
     }
-
-    private int daw = 231;
-    private int daddaw = 231;
-
     void openDetailScreen(int pos) {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("program", pos);
         startActivity(intent);
+    }
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        final int action = event.getActionMasked();
+
+        switch (action) {
+            case MotionEvent.ACTION_POINTER_DOWN:
+                if (event.getPointerCount() == 3) {
+                    return true;
+                }
+                break;
+        }
+
+        return super.onTouchEvent(event);
     }
 }
