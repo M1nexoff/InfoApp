@@ -25,10 +25,109 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/info"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/information"/>
+            <ImageView
+                android:id="@+id/ori"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ori"/>
         </FrameLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+            <HorizontalScrollView
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:id="@+id/c1"
+                        android:textColor="@color/white"
+                        android:text="Video Editing"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_video"/>
+                    <TextView
+                        android:id="@+id/c2"
+                        android:textColor="@color/white"
+                        android:text="Photo Editing"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_photo"/>
+                    <TextView
+                        android:id="@+id/c3"
+                        android:textColor="@color/white"
+                        android:text="3D"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_3d"/>
+                    <TextView
+                        android:id="@+id/c4"
+                        android:textColor="@color/white"
+                        android:text="Design"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_design"/>
+                    <TextView
+                        android:id="@+id/c5"
+                        android:textColor="@color/white"
+                        android:text="Media Production"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_media_pro"/>
+                    <TextView
+                        android:id="@+id/c6"
+                        android:textColor="@color/white"
+                        android:text="Media Assets"
+                        android:gravity="center"
+                        android:paddingHorizontal="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@drawable/bg_media_assets"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/cancel"
+                android:padding="4dp"
+                android:src="@drawable/cancel"
+                android:layout_width="36dp"
+                android:layout_height="56dp"/>
+        </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:id="@+id/recycle"

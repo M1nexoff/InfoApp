@@ -3,6 +3,7 @@
     <style name="Base.Theme.AdobeInfo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#66448AFF</item>
     </style>
 
     <style name="Theme.AdobeInfo" parent="Base.Theme.AdobeInfo" />

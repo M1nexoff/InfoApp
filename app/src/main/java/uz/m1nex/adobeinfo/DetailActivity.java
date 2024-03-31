@@ -21,26 +21,27 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        Window w = getWindow();
-        w.setFlags(
-                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
-        );
+
         loadData();
 
         int pos = getIntent().getIntExtra("program", 0);
-        Program data = list.get(pos);
+        ArrayList<Program> data = new ArrayList<>();
+        list.forEach(v->{
+            if(v.getImgResId() == pos){
+                data.add(v);
+            }
+        });
 
         findViewById(R.id.buttonBack).setOnClickListener(v -> finish());
 
         TextView textView = findViewById(R.id.name);
-        textView.setText(data.getProgramName());
+        textView.setText(data.get(0).getProgramName());
 
         ImageView imageView = findViewById(R.id.image);
-        imageView.setImageResource(data.getImgResId());
+        imageView.setImageResource(data.get(0).getImgResId());
 
         TextView textDescription = findViewById(R.id.textDescription);
-        textDescription.setText(data.getProgramDescription());
+        textDescription.setText(data.get(0).getProgramDescription());
     }
     private void loadData() {
         list.add(new Program(R.drawable.after_effects, "Adobe After Effects", "Video Editing", Color.parseColor("#D9000058"), R.string.after_effects_description));

@@ -16,8 +16,9 @@ import java.util.List;
 
 public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ProgramViewHolder> {
 
-    private final List<Program> programList;
+    public List<Program> programList;
     private final Context context;
+    public boolean orientation = false;
 
     public ProgramAdapter(Context context, List<Program> programList) {
         this.context = context;
@@ -27,7 +28,12 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ProgramV
     @NonNull
     @Override
     public ProgramViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.item_program, parent, false);
+        View view;
+        if (!orientation){
+            view = LayoutInflater.from(context).inflate(R.layout.item_program, parent, false);
+        } else {
+            view = LayoutInflater.from(context).inflate(R.layout.item_program2, parent, false);
+        }
         return new ProgramViewHolder(view);
     }
 
@@ -39,7 +45,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ProgramV
         holder.type.setText(program.getType());
         holder.root.setBackgroundTintList(ColorStateList.valueOf(program.getColor()));
         holder.itemView.setOnClickListener(v -> {
-            ((MainActivity) context).openDetailScreen(position);
+            ((MainActivity) context).openDetailScreen(programList.get(position).getImgResId());
         });
     }
 
